@@ -17,18 +17,29 @@ Chạy ứng dụng npm run dev
 CÁC CHỨC NĂNG CHÍNH:
 
 Thêm mới todos
+
 Đánh dấu todos là hoàn thành/chưa hoàn thành
+
 Chỉnh sửa todos
+
 Xóa todos
+
 Kiểm tra dữ liệu đầu vào (Input validation)
+
 Thiết kế responsive, tương thích trên nhiều thiết bị
+
 Hiển thị feedback trực quan cho các hành động
+
 QUẢN LÝ STATE:
 
 Ứng dụng sử dụng React useState để quản lý trạng thái:
+
 Danh sách todos: Mảng chứa danh sách các công việc
+
 Trạng thái nhập todo mới
+
 Chế độ chỉnh sửa todo
+
 KIỂM THỬ (Testing):
 
 Chạy toàn bộ test npm test
@@ -38,22 +49,35 @@ Nội dung kiểm thử
 Component Rendering
 
 Hiển thị danh sách todo ban đầu
+
 Render từng todo item
+
 Kiểm tra sự xuất hiện của input và các button
+
 User Interactions
 
 Thêm mới todos
+
 Đánh dấu todos là hoàn thành
+
 Chỉnh sửa todos
+
 Xóa todos
+
 Kiểm tra validation input
+
 State Management
 
 Cập nhật danh sách todos khi có thay đổi
+
 Chuyển trạng thái edit mode
+
 Hiển thị alert thông báo
+
 Edge Cases
 
 Kiểm tra input rỗng
+
 Kiểm tra validation khi chỉnh sửa
+
 Xử lý khi có nhiều todos cùng lúc
